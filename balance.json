@@ -1,6 +1,6 @@
 {
-    "version": 3,
-    "timeLimit": 60,
+    "version": 4,
+    "timeLimit": 45,
     "warningTime": 10,
     "spawnCount": 52,
     "minChainLength": 3,
