@@ -1,0 +1,98 @@
+{
+    "version": 1,
+    "timeLimit": 60,
+    "warningTime": 10,
+    "spawnCount": 52,
+    "minChainLength": 3,
+    "linkDistanceMultiplier": 1.45,
+    "chainMultiplierBase": 1,
+    "chainMultiplierPerTile": 0.1,
+    "largeThreshold": 5,
+    "largeMaxChain": 7,
+    "largeScale": 2,
+    "largeValue": 5,
+    "maxLarge": 3,
+    "probabilisticLarge": false,
+    "largeProbability": 1,
+    "allowBombInduction": false,
+    "bombChainMultiplier": false,
+    "bombDragMode": 0,
+    "feverRequiredClears": 30,
+    "feverDuration": 8,
+    "feverScoreMultiplier": 3,
+    "feverTimeBonus": 5,
+    "feverComboWindow": 3,
+    "skills": [
+        {
+            "id": "area",
+            "requiredGauge": 18,
+            "strength": 1.2,
+            "duration": 0
+        },
+        {
+            "id": "convert",
+            "requiredGauge": 20,
+            "strength": 8,
+            "duration": 0
+        },
+        {
+            "id": "extend",
+            "requiredGauge": 18,
+            "strength": 1.6,
+            "duration": 6
+        },
+        {
+            "id": "freeze",
+            "requiredGauge": 30,
+            "strength": 0,
+            "duration": 5
+        },
+        {
+            "id": "line",
+            "requiredGauge": 22,
+            "strength": 2,
+            "duration": 0
+        },
+        {
+            "id": "magnet",
+            "requiredGauge": 20,
+            "strength": 8,
+            "duration": 4
+        }
+    ],
+    "bombs": [
+        {
+            "id": "edamame",
+            "minChain": 8,
+            "maxChain": 0,
+            "radiusInDiameters": 1.65,
+            "scoreMultiplier": 1
+        }
+    ],
+    "tileScores": [
+        {
+            "id": "blue",
+            "scoreValue": 10
+        },
+        {
+            "id": "green",
+            "scoreValue": 10
+        },
+        {
+            "id": "orange",
+            "scoreValue": 10
+        },
+        {
+            "id": "purple",
+            "scoreValue": 10
+        },
+        {
+            "id": "red",
+            "scoreValue": 10
+        },
+        {
+            "id": "yellow",
+            "scoreValue": 10
+        }
+    ]
+}
