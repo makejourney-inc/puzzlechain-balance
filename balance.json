@@ -1,5 +1,5 @@
 {
-    "version": 5,
+    "version": 6,
     "timeLimit": 60,
     "warningTime": 10,
     "spawnCount": 52,
@@ -93,6 +93,18 @@
         {
             "id": "yellow",
             "scoreValue": 10
+        }
+    ],
+    "coinsPerScore": 100,
+    "coinsMinimumPerPlay": 5,
+    "costumePrices": [
+        {
+            "id": "coin_straw_hat",
+            "coinPrice": 300
+        },
+        {
+            "id": "coin_scarf",
+            "coinPrice": 500
         }
     ]
 }
