@@ -1,5 +1,5 @@
 {
-    "version": 7,
+    "version": 8,
     "timeLimit": 60,
     "warningTime": 10,
     "spawnCount": 52,
@@ -72,33 +72,48 @@
     ],
     "tileScores": [
         {
-            "id": "blue",
+            "id": "zunko_normal",
             "scoreValue": 10
         },
         {
-            "id": "green",
+            "id": "zundamon_normal",
             "scoreValue": 10
         },
         {
-            "id": "orange",
+            "id": "metan_normal",
             "scoreValue": 10
         },
         {
-            "id": "purple",
+            "id": "sora_normal",
             "scoreValue": 10
         },
         {
-            "id": "red",
+            "id": "kiritan_normal",
             "scoreValue": 10
         },
         {
-            "id": "yellow",
+            "id": "itako_normal",
             "scoreValue": 10
         }
     ],
     "coinsPerScore": 100,
     "coinsMinimumPerPlay": 20,
-    "maxReportableScore": 500000,
+    "unitMaxLevel": 10,
+    "unitExpToNextLevel": [
+        100,
+        200,
+        350,
+        550,
+        800,
+        1100,
+        1500,
+        2000,
+        2600
+    ],
+    "unitScoreBonusPerLevel": 0.05,
+    "unitSkillBonusPerLevel": 0.03,
+    "gachaDuplicateExp": 500,
+    "maxReportableScore": 750000,
     "costumePrices": [
         {
             "id": "coin_straw_hat",
