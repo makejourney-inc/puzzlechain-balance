@@ -1,5 +1,5 @@
 {
-    "version": 9,
+    "version": 10,
     "timeLimit": 60,
     "warningTime": 10,
     "spawnCount": 52,
@@ -101,15 +101,15 @@
     "coinsMinimumPerPlay": 20,
     "unitMaxLevel": 10,
     "unitExpToNextLevel": [
-        100,
-        200,
-        350,
-        550,
-        800,
-        1100,
-        1500,
-        2000,
-        2600
+        500,
+        1000,
+        2500,
+        4000,
+        6500,
+        11500,
+        17500,
+        20500,
+        23500
     ],
     "unitScoreBonusPerLevel": 0.05,
     "unitSkillBonusPerLevel": 0.03,
