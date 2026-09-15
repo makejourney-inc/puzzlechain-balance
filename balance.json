@@ -1,8 +1,9 @@
 {
-    "version": 6,
+    "version": 7,
     "timeLimit": 60,
     "warningTime": 10,
     "spawnCount": 52,
+    "spawnInterval": 0.03,
     "minChainLength": 3,
     "linkDistanceMultiplier": 1.45,
     "chainMultiplierBase": 1,
@@ -96,15 +97,16 @@
         }
     ],
     "coinsPerScore": 100,
-    "coinsMinimumPerPlay": 5,
+    "coinsMinimumPerPlay": 20,
+    "maxReportableScore": 500000,
     "costumePrices": [
         {
             "id": "coin_straw_hat",
-            "coinPrice": 300
+            "coinPrice": 1000
         },
         {
             "id": "coin_scarf",
-            "coinPrice": 500
+            "coinPrice": 1500
         }
     ]
 }
