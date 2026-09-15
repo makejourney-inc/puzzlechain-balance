@@ -1,5 +1,5 @@
 {
-    "version": 8,
+    "version": 9,
     "timeLimit": 60,
     "warningTime": 10,
     "spawnCount": 52,
@@ -96,6 +96,7 @@
             "scoreValue": 10
         }
     ],
+    "coinsPerCleared": 5,
     "coinsPerScore": 100,
     "coinsMinimumPerPlay": 20,
     "unitMaxLevel": 10,
