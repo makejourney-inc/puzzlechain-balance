@@ -1,5 +1,5 @@
 {
-    "version": 10,
+    "version": 11,
     "timeLimit": 60,
     "warningTime": 10,
     "spawnCount": 52,
@@ -23,6 +23,7 @@
     "feverScoreMultiplier": 3,
     "feverTimeBonus": 5,
     "feverComboWindow": 3,
+    "feverCoinMultiplier": 1.5,
     "skills": [
         {
             "id": "area",
