@@ -1,8 +1,8 @@
 {
-    "version": 12,
+    "version": 13,
     "timeLimit": 60,
     "warningTime": 10,
-    "spawnCount": 32,
+    "spawnCount": 45,
     "spawnInterval": 0.03,
     "minChainLength": 3,
     "linkDistanceMultiplier": 1.45,
@@ -94,6 +94,10 @@
         },
         {
             "id": "itako_normal",
+            "scoreValue": 10
+        },
+        {
+            "id": "ankomon_normal",
             "scoreValue": 10
         }
     ],
