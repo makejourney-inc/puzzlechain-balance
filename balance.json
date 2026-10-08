@@ -1,5 +1,5 @@
 {
-    "version": 13,
+    "version": 14,
     "timeLimit": 60,
     "warningTime": 10,
     "spawnCount": 45,
@@ -27,6 +27,12 @@
     "skills": [
         {
             "id": "area",
+            "requiredGauge": 18,
+            "strength": 1.2,
+            "duration": 0
+        },
+        {
+            "id": "anko_area",
             "requiredGauge": 18,
             "strength": 1.2,
             "duration": 0
@@ -60,6 +66,533 @@
             "requiredGauge": 20,
             "strength": 8,
             "duration": 4
+        }
+    ],
+    "skillLevels": [
+        {
+            "id": "area",
+            "levels": [
+                {
+                    "requiredGauge": 18,
+                    "strength": 1.2,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 1.236,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 1.272,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 1.308,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 1.344,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 1.38,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 1.416,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 1.452,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 1.488,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 1.524,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                }
+            ]
+        },
+        {
+            "id": "anko_area",
+            "levels": [
+                {
+                    "requiredGauge": 18,
+                    "strength": 0.2021,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 0.2021,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 0.2021,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 0.2021,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 0.2021,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 0.2021,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 0.2021,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 0.2021,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 0.2021,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 0.2021,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                }
+            ]
+        },
+        {
+            "id": "line",
+            "levels": [
+                {
+                    "requiredGauge": 22,
+                    "strength": 0.2021,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 22,
+                    "strength": 0.2021,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 22,
+                    "strength": 0.2021,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 22,
+                    "strength": 0.2021,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 22,
+                    "strength": 0.2021,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 22,
+                    "strength": 0.2021,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 22,
+                    "strength": 0.2021,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 22,
+                    "strength": 0.2021,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 22,
+                    "strength": 0.2021,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 22,
+                    "strength": 0.2021,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                }
+            ]
+        },
+        {
+            "id": "extend",
+            "levels": [
+                {
+                    "requiredGauge": 18,
+                    "strength": 1.6,
+                    "strengthSub": 0,
+                    "duration": 6,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 1.648,
+                    "strengthSub": 0,
+                    "duration": 6,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 1.696,
+                    "strengthSub": 0,
+                    "duration": 6,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 1.744,
+                    "strengthSub": 0,
+                    "duration": 6,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 1.792,
+                    "strengthSub": 0,
+                    "duration": 6,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 1.84,
+                    "strengthSub": 0,
+                    "duration": 6,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 1.888,
+                    "strengthSub": 0,
+                    "duration": 6,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 1.936,
+                    "strengthSub": 0,
+                    "duration": 6,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 1.984,
+                    "strengthSub": 0,
+                    "duration": 6,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 18,
+                    "strength": 2.032,
+                    "strengthSub": 0,
+                    "duration": 6,
+                    "activationCoins": 0
+                }
+            ]
+        },
+        {
+            "id": "freeze",
+            "levels": [
+                {
+                    "requiredGauge": 30,
+                    "strength": 0,
+                    "strengthSub": 0,
+                    "duration": 5,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 30,
+                    "strength": 0,
+                    "strengthSub": 0,
+                    "duration": 5,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 30,
+                    "strength": 0,
+                    "strengthSub": 0,
+                    "duration": 5,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 30,
+                    "strength": 0,
+                    "strengthSub": 0,
+                    "duration": 5,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 30,
+                    "strength": 0,
+                    "strengthSub": 0,
+                    "duration": 5,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 30,
+                    "strength": 0,
+                    "strengthSub": 0,
+                    "duration": 5,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 30,
+                    "strength": 0,
+                    "strengthSub": 0,
+                    "duration": 5,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 30,
+                    "strength": 0,
+                    "strengthSub": 0,
+                    "duration": 5,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 30,
+                    "strength": 0,
+                    "strengthSub": 0,
+                    "duration": 5,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 30,
+                    "strength": 0,
+                    "strengthSub": 0,
+                    "duration": 5,
+                    "activationCoins": 0
+                }
+            ]
+        },
+        {
+            "id": "convert",
+            "levels": [
+                {
+                    "requiredGauge": 20,
+                    "strength": 8,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 20,
+                    "strength": 8.24,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 20,
+                    "strength": 8.48,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 20,
+                    "strength": 8.72,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 20,
+                    "strength": 8.96,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 20,
+                    "strength": 9.2,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 20,
+                    "strength": 9.44,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 20,
+                    "strength": 9.68,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 20,
+                    "strength": 9.92,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 20,
+                    "strength": 10.16,
+                    "strengthSub": 0,
+                    "duration": 0,
+                    "activationCoins": 0
+                }
+            ]
+        },
+        {
+            "id": "magnet",
+            "levels": [
+                {
+                    "requiredGauge": 20,
+                    "strength": 8,
+                    "strengthSub": 0,
+                    "duration": 4,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 20,
+                    "strength": 8.24,
+                    "strengthSub": 0,
+                    "duration": 4,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 20,
+                    "strength": 8.48,
+                    "strengthSub": 0,
+                    "duration": 4,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 20,
+                    "strength": 8.72,
+                    "strengthSub": 0,
+                    "duration": 4,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 20,
+                    "strength": 8.96,
+                    "strengthSub": 0,
+                    "duration": 4,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 20,
+                    "strength": 9.2,
+                    "strengthSub": 0,
+                    "duration": 4,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 20,
+                    "strength": 9.44,
+                    "strengthSub": 0,
+                    "duration": 4,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 20,
+                    "strength": 9.68,
+                    "strengthSub": 0,
+                    "duration": 4,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 20,
+                    "strength": 9.92,
+                    "strengthSub": 0,
+                    "duration": 4,
+                    "activationCoins": 0
+                },
+                {
+                    "requiredGauge": 20,
+                    "strength": 10.16,
+                    "strengthSub": 0,
+                    "duration": 4,
+                    "activationCoins": 0
+                }
+            ]
         }
     ],
     "bombs": [
