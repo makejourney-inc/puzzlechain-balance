@@ -40,16 +40,16 @@ MJ のゲームタイトル向けに、ゲーム内の数値をアプリの更�
 
 ## 項目
 
-現在の `balance.json` は **トップレベル 37項目**です。
-内訳は「単一値 32項目」と「配列 5項目」です。
+現在の `balance.json` は **トップレベル 41項目**です（version 15 時点）。
+内訳は「単一値 35項目」と「配列 6項目」です。
 
-配列の中身まで数えると、`skills` 6件・`bombs` 1件・`tileScores` 6件・
+配列の中身まで数えると、`skills` 7件・`skillLevels` 7件・`bombs` 1件・`tileScores` 7件・
 `costumePrices` 2件・`unitExpToNextLevel` 9段になります。
 
 定義の大元はタイトル側の `Assets/Scripts/Balance/BalanceConfig.cs` です。
 そちらには配信していない項目も含まれるため、数は一致しません。
 
-### 単一値（32項目）
+### 単一値（35項目）
 
 | 分類 | 項目 |
 |---|---|
@@ -60,17 +60,19 @@ MJ のゲームタイトル向けに、ゲーム内の数値をアプリの更�
 | 大玉 | `largeThreshold`, `largeMaxChain`, `largeScale`, `largeValue`, `maxLarge`, `probabilisticLarge`, `largeProbability` |
 | 爆弾の扱い | `allowBombInduction`, `bombChainMultiplier`, `bombDragMode` |
 | Fever | `feverRequiredClears`, `feverDuration`, `feverScoreMultiplier`, `feverTimeBonus`, `feverComboWindow` |
-| コイン | `coinsPerCleared`, `coinsPerScore`, `coinsMinimumPerPlay` |
+| コイン | `coinsPerCleared`, `coinsPerScore`, `coinsMinimumPerPlay`, `feverCoinMultiplier` |
 | 単位の育成 | `unitMaxLevel`, `unitScoreBonusPerLevel`, `unitSkillBonusPerLevel`, `gachaDuplicateExp` |
 | 順位の報告 | `maxReportableScore` |
+| ハート（広告） | `heartAdIntervalMinutes`（もらえる間隔・分）, `heartAdHearts`（1回でもらえる数） |
 
-### 配列（5項目）
+### 配列（6項目）
 
 | 項目 | 件数 | 中身 |
 |---|---|---|
-| `skills` | 6 | `id` / `requiredGauge` / `strength` / `duration` |
+| `skills` | 7 | `id` / `requiredGauge` / `strength` / `duration` |
+| `skillLevels` | 7 | スキルのレベル別の表 |
 | `bombs` | 1 | `id` / `minChain` / `maxChain` / `radiusInDiameters` / `scoreMultiplier` |
-| `tileScores` | 6 | `id` / `scoreValue` |
+| `tileScores` | 7 | `id` / `scoreValue` |
 | `costumePrices` | 2 | `id` / `coinPrice` |
 | `unitExpToNextLevel` | 9段 | レベルを1つ上げるのに必要な経験値 |
 

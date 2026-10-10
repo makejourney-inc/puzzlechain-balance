@@ -1,5 +1,5 @@
 {
-    "version": 14,
+    "version": 15,
     "timeLimit": 60,
     "warningTime": 10,
     "spawnCount": 45,
@@ -652,6 +652,8 @@
     "unitScoreBonusPerLevel": 0.05,
     "unitSkillBonusPerLevel": 0.03,
     "gachaDuplicateExp": 500,
+    "heartAdIntervalMinutes": 60,
+    "heartAdHearts": 1,
     "maxReportableScore": 750000,
     "costumePrices": [
         {
