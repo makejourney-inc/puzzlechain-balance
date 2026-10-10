@@ -1,5 +1,5 @@
 {
-    "version": 15,
+    "version": 16,
     "timeLimit": 60,
     "warningTime": 10,
     "spawnCount": 45,
@@ -654,7 +654,9 @@
     "gachaDuplicateExp": 500,
     "heartAdIntervalMinutes": 60,
     "heartAdHearts": 1,
+    "heartAdMaxPerDay": 0,
     "maxReportableScore": 750000,
+    "itemPriceTumReduce": 1800,
     "costumePrices": [
         {
             "id": "coin_straw_hat",

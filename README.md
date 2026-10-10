@@ -40,8 +40,8 @@ MJ のゲームタイトル向けに、ゲーム内の数値をアプリの更�
 
 ## 項目
 
-現在の `balance.json` は **トップレベル 41項目**です（version 15 時点）。
-内訳は「単一値 35項目」と「配列 6項目」です。
+現在の `balance.json` は **トップレベル 43項目**です（version 16 時点）。
+内訳は「単一値 37項目」と「配列 6項目」です。
 
 配列の中身まで数えると、`skills` 7件・`skillLevels` 7件・`bombs` 1件・`tileScores` 7件・
 `costumePrices` 2件・`unitExpToNextLevel` 9段になります。
@@ -49,7 +49,7 @@ MJ のゲームタイトル向けに、ゲーム内の数値をアプリの更�
 定義の大元はタイトル側の `Assets/Scripts/Balance/BalanceConfig.cs` です。
 そちらには配信していない項目も含まれるため、数は一致しません。
 
-### 単一値（35項目）
+### 単一値（37項目）
 
 | 分類 | 項目 |
 |---|---|
@@ -63,7 +63,8 @@ MJ のゲームタイトル向けに、ゲーム内の数値をアプリの更�
 | コイン | `coinsPerCleared`, `coinsPerScore`, `coinsMinimumPerPlay`, `feverCoinMultiplier` |
 | 単位の育成 | `unitMaxLevel`, `unitScoreBonusPerLevel`, `unitSkillBonusPerLevel`, `gachaDuplicateExp` |
 | 順位の報告 | `maxReportableScore` |
-| ハート（広告） | `heartAdIntervalMinutes`（もらえる間隔・分）, `heartAdHearts`（1回でもらえる数） |
+| ハート（広告） | `heartAdIntervalMinutes`（もらえる間隔・分）, `heartAdHearts`（1回でもらえる数）, `heartAdMaxPerDay`（1日の上限・0 は上限なし） |
+| アイテムの値段 | `itemPriceTumReduce`（コマを4種に） |
 
 ### 配列（6項目）
 
